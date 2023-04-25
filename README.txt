@@ -69,7 +69,7 @@ tf-gpu.yaml
 
 archive			- store images for the CNN model
 emotion_class		- store images for emotion classification
-plots				- store plots from test and the best model_weights.h5 file
+plots			- store plots from test and the best model_weights.h5 file
 session_stream		- store the session stream
 
 *****************
@@ -77,9 +77,9 @@ Project Directory
 *****************
 EmotionDetector 	- "plots/1.Model/model_weights.h5"
 			- "session_stream/session_{timestamp}.mp4"
-DataGenerator 	- "archive/images"
+DataGenerator 		- "archive/images"
 CCNModel		- "model_weights.h5"
-ModelEvaluator 	- "conf_matrix.png"
+ModelEvaluator 		- "conf_matrix.png"
 			- "conf_matrix_test.png"
 
 
