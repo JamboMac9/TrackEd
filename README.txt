@@ -53,7 +53,7 @@ The dataset is split into three sets: training, validation, and test sets. You c
 
 https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
 
-This particular dataset is split into Train and Validation folders - this needs to be set to Train and Test, with the Train folder using an 80/20 split.
+This particular dataset is split into Train and Validation folders - this needs to be set to Train and Test, with the Train folder using an 80/20 Train-Validation split.
 
 *************
 Project Files
