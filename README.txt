@@ -4,7 +4,7 @@ EMOTION RECOGNITION USING FACIAL EXPRESSIONS: A TOOL FOR E-MEETING PLATFORMS
 
 ***This setup assumes Python is installed and has been added as a PATH to the System Environment Variables (SEV)
 
-For instrvutions on how to RUN a Python file through Command Prompt (CMD) and how to SET Python to the SEV, please see: https://www.wikihow.com/Use-Windows-Command-Prompt-to-Run-a-Python-File
+For instructions on how to RUN a Python file through Command Prompt (CMD) and how to SET Python to the SEV, please see: https://www.wikihow.com/Use-Windows-Command-Prompt-to-Run-a-Python-File
 
 This code is for training a Convolutional Neural Network (CNN) to classify emotions from facial expressions using the Oheix FER2013 dataset.
 
