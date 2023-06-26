@@ -52,7 +52,7 @@ class EmotionDetector:
         """
         
         # Load the best model
-        self.model = load_model(Path('plots') / '1.Model' / 'model_weights.h5')
+        self.model = load_model('model_weights.h5')
 
         # Initialise the camera
         self.cap = cv2.VideoCapture(0)
