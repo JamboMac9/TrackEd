@@ -56,7 +56,7 @@ Run on Command Line
 ===================
 To run TrackEd through CMD - if all package requirements are installed and set to active PATHS on the system, open command line (CMD) > navigate to the project folder > type
 
-***python TrackEd.py***
+	python TrackEd.py
 
 If set up correctly, this will start the application as intended.
 
@@ -66,7 +66,7 @@ conda activate <env name (tf-gpu if importing preset env)>
 
 Once active type >
 
-***python TrackEd.py***
+	python TrackEd.py
 
 For instructions on how to RUN a Python file through Command Prompt (CMD) and how to SET Python to the SEV, please see: https://www.wikihow.com/Use-Windows-Command-Prompt-to-Run-a-Python-File
 
@@ -106,7 +106,7 @@ IPython
 
 User can install these packages using pip through CMD. For example:
 
-***pip install numpy matplotlib tensorflow keras scikit-learn ipython***
+	pip install numpy matplotlib tensorflow keras scikit-learn ipython
 
 ============================
 Package Version Requirements
