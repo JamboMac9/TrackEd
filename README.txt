@@ -4,12 +4,53 @@ EMOTION RECOGNITION USING FACIAL EXPRESSIONS: A TOOL FOR E-MEETING PLATFORMS
 
 ***This setup assumes Python is installed and has been added as a PATH to the System Environment Variables (SEV)
 
+*****************
+Project Directory Structure
+*****************
+EmotionDetector 	- "plots/1.Model/model_weights.h5"
+			- "session_stream/session_{timestamp}.mp4"
+DataGenerator 		- "archive/images"
+CCNModel		- "model_weights.h5"
+ModelEvaluator 		- "conf_matrix.png"
+			- "conf_matrix_test.png"
+
+***************************
+QUICK SETUP & RUNNING TrackEd
+***************************
+For a quick setup that involves minimal installation, users are advised to install the Anaconda3 for TensorFlow environment. This allows the user to simply import the tf-gpu.yaml file which contains all the project dependencies directly into the environment. This will allow the packages to run without any further installation.
+
+Run within Anaconda3
+*********************
+To run TrackEd within Anaconda3 environment, open xx folder and run the xx file (JM: please explain details of running the application)
+
+If user prefers a different IDE, please follow the Installation Guide below
+
+Run on command line
+*******************
+To run TrackEd through CMD - if all package requirements are installed and set to active PATHS on the system, open command centre > navigate to the project folder > type
+
+python EmotionDetector.py
+
+If set up correctly, this will start the application as intended.
+
+If using Anaconda3, activate the environment first > open CMD > type
+
+conda activate <env name (tf-gpu if importing preset env)>
+
+Once active type >
+
+python EmotionDetector.py
+
 For instructions on how to RUN a Python file through Command Prompt (CMD) and how to SET Python to the SEV, please see: https://www.wikihow.com/Use-Windows-Command-Prompt-to-Run-a-Python-File
 
-This code is for training a Convolutional Neural Network (CNN) to classify emotions from facial expressions using the Oheix FER2013 dataset.
+**************************
+TRAIN AND TEST TrackEd
+**************************
+everything about training and testing 
+
 
 ************
-Installation
+Installation Guide
 ************
 
 To run this code, you will need to install the following packages and libraries:
@@ -74,38 +115,6 @@ emotion_class		- store images for emotion classification
 plots			- store plots from test and the best model_weights.h5 file
 session_stream		- store the session stream
 
-*****************
-Project Directory
-*****************
-EmotionDetector 	- "plots/1.Model/model_weights.h5"
-			- "session_stream/session_{timestamp}.mp4"
-DataGenerator 		- "archive/images"
-CCNModel		- "model_weights.h5"
-ModelEvaluator 		- "conf_matrix.png"
-			- "conf_matrix_test.png"
 
-
-*********************
-Anaconda Environments
-*********************
-
-If using Anaconda3 for TensorFlow environment, tf-gpu.yaml has the env packages pre-installed - importing the .yaml file into Anaconda3 as an environment will allow the packages to run with no installation required.
-
-***
-CMD
-***
-
-To run the application through CMD - if all package requirements are installed and set to active PATHS on the system, open command centre > navigate to the project folder > type
-
-python EmotionDetector.py
-
-If set up correctly, this will start the application as intended.
-
-If using Anaconda3, activate the environment first > open CMD > type
-
-conda activate <env name (tf-gpu if importing preset env)>
-
-Once active type >
-
-python EmotionDetector.py
+This code is for training a Convolutional Neural Network (CNN) to classify emotions from facial expressions using the Oheix FER2013 dataset.
 
