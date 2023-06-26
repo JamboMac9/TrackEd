@@ -32,12 +32,12 @@ Project Directory Structure
 * track_train_files
 	* DataGenerator 		
 		* archive
-			* images"
+			* images
 	* CNNModel		
-		* "model_weights.h5"
+		* "model_weights.h5
 	* ModelEvaluator 		
-		* "conf_matrix.png"
-		* "conf_matrix_test.png"
+		* "conf_matrix.png
+		* "conf_matrix_test.png
 
 =============================
 QUICK SETUP & RUNNING TrackEd
