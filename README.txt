@@ -23,9 +23,9 @@ Project Directory Structure
 	* emotion_class
 		* neutral
 	* emotion_class
-		* surprise
-	* emotion_class
 		* sad
+	* emotion_class
+		* surprise
 	* session_stream
 		* session_{timestamp}.mp4
 
